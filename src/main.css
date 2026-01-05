@@ -1,3 +1,10 @@
+:root{
+  --primary-color: #28462E;
+  --secondary-color: #B3C1B0;
+  --text-color: #1E1E1E;
+  --white-color: #FFFFFF;
+}
+
 * {
   font-family: 'poppins', sans-serif;
   margin: 0;
@@ -11,7 +18,7 @@
 html, body {
   height: 100%;
   line-height: 1;
-  background-color: #f4f4f4;
+  background-color: var(--white-color);
 }
 
 table {

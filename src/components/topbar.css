@@ -6,7 +6,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     gap: 160px;
-    color: rgb(17, 107, 77);
+    color: var(--primary-color);
     font-size: 16px;
     font-weight: 500;
 }
@@ -17,5 +17,5 @@
 }
 
 .listtopbar a:hover{
-    color: black;
+    color: var(--text-color);
 }
