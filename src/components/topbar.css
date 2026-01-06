@@ -19,3 +19,22 @@
 .listtopbar a:hover{
     color: var(--text-color);
 }
+
+@media screen and (max-width:1360px){
+     #containertopbar {
+        gap: 100px;
+}
+}
+
+@media screen and (max-width:1156px){
+     #containertopbar {
+        gap: 80px;
+}
+}
+
+
+@media screen and (max-width:768px){
+     #containertopbar {
+        display: none;
+}
+}
