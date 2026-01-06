@@ -5,7 +5,7 @@ export const Area1 = () => {
     return (
         <>
         <Topbar />
-        <Widebox widepic="public/wideimage4(1920x1118) .jpg"/>
+        <Widebox widepic="public/wideimage4(1920x1118).jpg"/>
         </>
     )
 }
