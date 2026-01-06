@@ -1,0 +1,32 @@
+#containercontent1 {
+    display: grid;
+    grid-template-areas: 
+    "image tittle"
+    "image caption";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 56px auto;
+}
+
+.imagecontent1{
+grid-area: image;
+width: 400px;
+object-fit: cover;
+border-radius: 28px;
+}
+
+.tittlecontent1{
+grid-area: tittle;
+font-size: 24px;
+font-weight: 500;
+margin-top: 20px;
+margin-bottom: 12px;
+padding-left: 60px;
+}
+
+.captioncontent1{
+grid-area: caption;
+font-size: 16px;
+padding-left: 60px;
+padding-top: 12px;
+margin-top: 0px;
+}

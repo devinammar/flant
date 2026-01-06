@@ -10,7 +10,7 @@
 
 .containerwidebox{
     background-image: url('/public/wideimage4-1920x1118.jpg');
-background-position: bottom;   /* Menempatkan gambar di bagian bawah */
+    background-position: bottom;   /* Menempatkan gambar di bagian bawah */
     background-size: cover; 
     justify-self: center;
     width: calc(100vw - 54px);
