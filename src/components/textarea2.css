@@ -1,0 +1,34 @@
+#textarea2container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 860px;
+    min-width: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#h1area2{
+    font-size: var(--font-size-h1);
+    color: var(--primary-color);
+}
+
+#parea2{
+    font-size: var(--font-size-p);
+    color: var(--text-color);
+    max-width: 740px;
+    min-width: 20px;
+    padding-top: 16px;
+}
+
+#buttonarea2{
+    background-color: var(--primary-color);
+    margin-top: 92px;
+    padding: 8px max(2px, 100px);
+    border-radius: 8px;
+}
+
+#textbuttonarea2{
+    font-size: var(--font-size-p);
+    color: var(--white-color);
+}
