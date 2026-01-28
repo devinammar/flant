@@ -24,8 +24,8 @@
 #buttonarea2{
     background-color: var(--primary-color);
     margin-top: 92px;
-    padding: 8px max(2px, 100px);
-    border-radius: 8px;
+    padding: 12px max(2px, 100px);
+    border-radius: 12px;
 }
 
 #textbuttonarea2{
