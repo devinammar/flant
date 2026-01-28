@@ -7,7 +7,7 @@ export const Textarea2 = ({h1area2, parea2}) => {
       <h1 id="h1area2">{h1area2}</h1>
       <p id="parea2">{parea2}</p>
       <button id="buttonarea2">
-      <Link id="textbuttonarea2" to="about">Learn About</Link>
+      <Link id="textbuttonarea2" to="about">Learn More</Link>
       </button>
     </div>
   );
