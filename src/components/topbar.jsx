@@ -15,7 +15,7 @@ return(
                 <Link to="/searchbyimage">Search by Image</Link>
             </li>
             <li className="listtopbar">
-                <Link to="about">About</Link>
+                <Link to="/about">About</Link>
             </li>
         </ul>
     </div>
