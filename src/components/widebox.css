@@ -1,24 +1,18 @@
-#wideboximage{
-    width: calc(100% - 40px);
-    height: calc(100% - 54px);
+#wideboximage {
+    width: calc(100% - 48px);
+    height: calc(100% - 70px);
     object-fit: cover;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0 20px 20px 20px;
     border-radius: 28px;
 }
 
-.containerwidebox{
+.containerwidebox {
     background-image: url('/public/wideimage4-1920x1118.jpg');
-    background-position: bottom;   /* Menempatkan gambar di bagian bawah */
-    background-size: cover; 
+    background-position: bottom;
+    background-size: cover;
     justify-self: center;
-    width: calc(100vw - 54px);
-    height: calc(100vh - 76px);
-    object-fit: cover;
-/*     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px; */
+    width: calc(100vw - 48px); /* 24px margin kiri & kanan */
+    height: calc(100vh - 70px); /* Topbar (16+16+14=46) 46 + 24 */
     border-radius: 28px;
     display: block;
     max-width: 1920px;

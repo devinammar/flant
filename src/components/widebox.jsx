@@ -1,9 +1,8 @@
 import './widebox.css'
 
-export const Widebox = ({ widepic }) => {
+export const Widebox = () => {
     return (
         <div className="containerwidebox">
-            <img id="wideboximage" src={ widepic } alt="Banner" />
         </div>
     )
 }
