@@ -1,12 +1,4 @@
-#wideboximage {
-    width: calc(100% - 48px);
-    height: calc(100% - 70px);
-    object-fit: cover;
-    margin: 0 20px 20px 20px;
-    border-radius: 28px;
-}
-
-.containerwidebox {
+.containerwidebox1 {
     background-image: url('/public/wideimage4-1920x1118.jpg');
     background-position: bottom;
     background-size: cover;
@@ -20,11 +12,19 @@
     padding-top: 88px;
 }
 
-#block1widebox{
+#block1widebox1{
     background-color: var(--white-color);
     top: 40px;
     max-width: 1116px;
     min-width: 100px;
     max-height: 74px;
     border-radius: 0px 20px 20px 0px;
+}
+
+#block2widebox1{
+    background-color: var(--white-color);
+    max-height: 74px;
+    max-width: 1116px;
+    bottom: 20px;
+    justify-content: end;
 }

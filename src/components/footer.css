@@ -10,6 +10,7 @@
     width: calc(100vw - 48px);
     border-radius: 28px;
     align-content: center;
+    margin-top: 24px;
 }
 
 #logoarea{
