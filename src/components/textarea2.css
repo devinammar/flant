@@ -11,14 +11,16 @@
 .h1{
     font-size: var(--font-size-h1);
     color: var(--primary-color);
+    line-height: 1.7;
 }
 
-#parea2{
+.p{
     font-size: var(--font-size-p);
     color: var(--text-color);
     max-width: 740px;
     min-width: 20px;
     padding-top: 16px;
+    line-height: 2;
 }
 
 #buttonarea2{
