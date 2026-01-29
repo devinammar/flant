@@ -4,18 +4,16 @@
     grid-template-areas: 
     "logo about resource contact";
     grid-template-columns: minmax(100px, 826px) auto auto auto;
-    grid-template-rows: auto;
     justify-self: center;
     height: 280px;
     max-width: 1920px;
     width: calc(100vw - 48px);
     border-radius: 28px;
-    margin-top: 24px;
     align-content: center;
 }
 
 #logoarea{
-    background-color: aliceblue;
+    background-color: var(--white-color);
     width: 100%;
     border-radius: 0px 20px 20px 0px;
 }
@@ -42,11 +40,44 @@
 
 .listarea1, .listarea2, .listarea3 {
     width: 116px;
-    margin-right: 100px;
+    margin-right: clamp(20px, 100px, 100px);
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .listarea1{
     margin-left: 100px;
+}
+
+@media screen and (max-width:1024px){
+   #footer{
+    grid-template-areas: 
+    "logo"
+    "about"
+    "resource"
+    "contact";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    /* height: calc(100vh - 48px); */
+    height: auto;
+    justify-items: center;
+   }
+   .listarea1{
+    margin-left: 0px;
+}
+.listarea1, .listarea2, .listarea3 {
+    width: 116px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#logoarea{
+    background-color: var(--white-color);
+    width: calc(100% - 100px);
+    height: 10vh;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
 }
