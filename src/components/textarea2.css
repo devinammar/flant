@@ -8,8 +8,8 @@
     margin-left: 40px;
 }
 
-#h1area2{
-    font-size: var(--font-size-h2);
+.h1{
+    font-size: var(--font-size-h1);
     color: var(--primary-color);
 }
 
