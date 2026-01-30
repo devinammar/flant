@@ -60,11 +60,13 @@
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;
     /* height: calc(100vh - 48px); */
-    height: auto;
+    height: calc(100vh - 48px);
     justify-items: center;
+    align-content: start;
    }
    .listarea1{
     margin-left: 0px;
+    padding-top: 20px;
 }
 .listarea1, .listarea2, .listarea3 {
     width: 116px;
