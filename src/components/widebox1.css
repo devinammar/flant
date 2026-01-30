@@ -6,10 +6,9 @@
     width: calc(100vw - 48px); /* 24px margin kiri & kanan */
     height: calc(100vh - 70px); /* Topbar (16+16+14=46) 46 + 24 */
     border-radius: 28px;
-    display: block;
+    display: grid;
     max-width: 1920px;
     max-height: 1080px;
-    padding-top: 88px;
 }
 
 #block1widebox1{
@@ -19,12 +18,15 @@
     min-width: 100px;
     max-height: 74px;
     border-radius: 0px 20px 20px 0px;
+    margin-top: 88px;
 }
 
 #block2widebox1{
     background-color: var(--white-color);
-    max-height: 74px;
     max-width: 1116px;
-    bottom: 20px;
-    justify-content: end;
+    justify-self: end;
+    align-self: end;
+    max-height: 74px;
+    margin-bottom: 140px;
+    border-radius: 20px 0px 0px 20px;
 }
