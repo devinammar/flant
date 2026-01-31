@@ -14,24 +14,81 @@
 #block1widebox1{
     background-color: var(--white-color);
     top: 40px;
-    max-width: 1116px;
-    min-width: 20px;
-    max-height: 74px;
+    display: flex;
+    width: calc(100% - 400px);
+    height: 74px;
     border-radius: 0px 20px 20px 0px;
     margin-top: 88px;
 }
 
 #block2widebox1{
     background-color: var(--white-color);
-    max-width: 200px;
-    min-width: 20px;
-    width: 100%;
+    display: flex;
+    width: calc(100% - 80vw);
     justify-self: end;
     align-self: end;
-    max-height: 74px;
+    height: 74px;
     margin-bottom: 140px;
     border-radius: 20px 0px 0px 20px;
 }
+
+/* Min width 1920px*/
+@media screen and (min-width:1920px){
+  #block2widebox1{
+    width: calc(100% - 1536px);
+  }
+}
+
+/* Max width */
+@media screen and (max-width:1024px){
+#block1widebox1{
+    width: calc(100% - 200px);
+}
+#block2widebox1{
+    width: calc(100% - 70vw);
+}
+}
+
+@media screen and (max-width:768px){
+#block1widebox1{
+    width: calc(100% - 100px);
+    height: 66px;
+}
+    #block2widebox1{
+    width: calc(100% - 60vw);
+    height: 66px;
+}
+}
+
+@media screen and (max-width:480px){
+#block1widebox1{
+    width: calc(100% - 60px);
+}
+
+#block2widebox1{
+    width: calc(100% - 40vw);
+}
+}
+
+/* Max height */
+@media screen and (max-height:768px){
+#block1widebox1{
+    height: 58px;
+}
+    #block2widebox1{
+    height: 58px;
+}
+}
+
+/* #logoarea{
+    background-color: var(--white-color);
+    width: calc(100% - 100px);
+    height: 10vh;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+} */
+
 /* 
 .containerwidebox1 {
     background-image: url('/public/wideimage4-1920x1118.jpg');
