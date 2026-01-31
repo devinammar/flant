@@ -1,14 +1,28 @@
 .containerwidebox1 {
-    background-image: url('/public/wideimage4-1920x1118.jpg');
-    background-position: bottom;
-    background-size: cover;
-    justify-self: center;
     width: calc(100vw - 48px); /* 24px margin kiri & kanan */
     height: calc(100vh - 70px); /* Topbar (16+16+14=46) 46 + 24 */
     border-radius: 28px;
     display: grid;
     max-width: 1920px;
     max-height: 1080px;
+}
+
+.containerwidebox1.image{
+    background-image: url('/public/wideimage4-1920x1118.jpg');
+    background-position: bottom;
+    background-size: cover;
+    justify-self: center;
+}
+
+.containerwidebox1.color{
+    background-color: var(--secondary-color);
+    background-position: bottom;
+    background-size: cover;
+    justify-self: center;
+    
+    #block1widebox1, #block2widebox1{
+        display: none;
+    }
 }
 
 #block1widebox1{

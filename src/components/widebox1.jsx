@@ -1,9 +1,9 @@
 import './widebox1.css'
 import { Link } from 'react-router-dom';
 
-export const Widebox1 = () => {
+export const Widebox1 = ({ background }) => {
     return (
-        <div className="containerwidebox1">
+        <div className={`containerwidebox1 ${background}`}>
             <div id="block1widebox1">
                 <p>tes</p>
             </div>

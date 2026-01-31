@@ -5,7 +5,7 @@ export const Search = () => {
     return (
         <div className='grid'>
         <Topbar />
-        <Widebox1 />
+        <Widebox1 background="color" />
         </div>
     );
 };

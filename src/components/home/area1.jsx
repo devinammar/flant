@@ -5,7 +5,7 @@ export const Area1 = () => {
     return (
         <>
         <Topbar />
-        <Widebox1 />
+        <Widebox1 background="image" />
         </>
     )
 }
