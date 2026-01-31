@@ -1,0 +1,11 @@
+import { Topbar } from '../components/topbar'
+import { Widebox1 } from '../components/widebox1'
+
+export const Searchbyimage = () => {
+    return (
+        <div className='grid'>
+        <Topbar />
+        <Widebox1 background="color" />
+        </div>
+    );
+};
