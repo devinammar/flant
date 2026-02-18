@@ -1,0 +1,40 @@
+#containercard{
+   display: grid;
+   grid-template-areas: 
+   ". h1"
+   "card1 card2";
+   grid-template-columns: auto auto; /* ini harus dibenerin lagi  */
+   grid-template-rows: auto auto;  /* ini harus dibenerin lagi */
+}
+
+#card1{
+   background-image: url('/public/pexels-sonny-17133329.jpg');
+   background-size: cover;
+   height: 640px; /* height nya harus dibenerin lagi (blm responsive) */
+   width: 440px; /* width nya harus dibenerin lagi (blm responsive) */
+   border-radius: 20px;
+   grid-area: card1;
+}
+
+#card2{
+   background-image: url('/public/pexels-sonny-17133329.jpg');
+   background-size: cover;
+   height: 640px; /* height nya harus dibenerin lagi (blm responsive) */
+   width: 440px; /* width nya harus dibenerin lagi (blm responsive) */
+   border-radius: 20px;
+   grid-area: card2;
+}
+
+#h1card{
+    grid-area: h1;
+}
+
+.h2card{
+    font-size: var(--font-size-h2);
+    color: var(--white-color);
+}
+
+.pcard{
+    font-size: var(--font-size-p);
+    color: var(--white-color);
+}
