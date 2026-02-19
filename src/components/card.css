@@ -1,17 +1,20 @@
 #containercard{
    display: grid;
    grid-template-areas: 
-   ". h1"
+   "card1 h1"
    "card1 card2";
-   grid-template-columns: auto auto; /* ini harus dibenerin lagi  */
-   grid-template-rows: auto auto;  /* ini harus dibenerin lagi */
+   grid-template-columns: minmax(0, 360px) minmax(0, 360px);
+   grid-template-rows: minmax(0, 40px) minmax(0, 540px);
+   justify-self: center;
+   gap: 0px 30px;
 }
 
 #card1{
    background-image: url('/public/pexels-sonny-17133329.jpg');
    background-size: cover;
-   height: 640px; /* height nya harus dibenerin lagi (blm responsive) */
-   width: 440px; /* width nya harus dibenerin lagi (blm responsive) */
+   background-position: center;
+   max-height: 540px;
+   width: 100%;
    border-radius: 20px;
    grid-area: card1;
 }
@@ -19,8 +22,9 @@
 #card2{
    background-image: url('/public/pexels-sonny-17133329.jpg');
    background-size: cover;
-   height: 640px; /* height nya harus dibenerin lagi (blm responsive) */
-   width: 440px; /* width nya harus dibenerin lagi (blm responsive) */
+   background-position: center;
+   height: 100%;
+   width: 100%;
    border-radius: 20px;
    grid-area: card2;
 }
