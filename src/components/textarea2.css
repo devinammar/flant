@@ -1,3 +1,10 @@
+#textarea2wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 #textarea2container{
     display: inline-flex;
     flex-direction: column;
@@ -39,8 +46,35 @@
     background-color:  var(--secondary-color);
 }
 
+#image1textarea2{
+    position: absolute;
+    background-image: url('/public/pexels-sonny-17133329.jpg');
+   background-size: cover;
+   background-position: center;
+    height: 600px;
+    width: 160px;
+    left: 0;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#image2textarea2{
+    position: absolute;
+    background-image: url('/public/pexels-sonny-17133329.jpg');
+   background-size: cover;
+   background-position: center;
+    height: 600px;
+    width: 160px;
+    right: 0;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 20px;
+}
+
+
 @media screen and (max-width:768px){
     .h1{
         font-size: var(--font-size-h1-phone);
+    }
+    #image1textarea2, #image2textarea2{
+        display: none;
     }
 }
