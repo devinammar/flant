@@ -3,12 +3,12 @@
    grid-template-areas: 
    "card1 h1"
    "card1 card2";
-   grid-template-columns: minmax(0, 360px) minmax(0, 360px);
-   grid-template-rows: auto minmax(0, 540px);
+   grid-template-columns: clamp(200px, 20vw, 360px) clamp(200px, 20vw, 360px);;
+   grid-template-rows: auto clamp(0px, 440px, 640px);
    justify-self: center;
    gap: 0px 30px;
    max-width: 60vw;
-   min-width: 600px;
+   min-width: 200px;
    margin-left: 200px;
    margin-right: 200px;
 }
@@ -17,10 +17,13 @@
    background-image: url('/public/pexels-sonny-17133329.jpg');
    background-size: cover;
    background-position: center;
-   max-height: 540px;
+   max-height: 440px;
    width: 100%;
    border-radius: 20px;
+   align-content: flex-end;
+   padding: 16px;
    grid-area: card1;
+   cursor: pointer;
 }
 
 #card2{
@@ -30,22 +33,32 @@
    height: 100%;
    width: 100%;
    border-radius: 20px;
+   align-content: flex-end;
+   padding: 16px;
    grid-area: card2;
+   cursor: pointer;
 }
 
 #h1card{
     grid-area: h1;
     margin-bottom: 24px;
+    text-align: center;
+    color: var(--primary-color);
 }
 
 .h2card{
     font-size: var(--font-size-h2);
     color: var(--white-color);
+    line-height: 2;
 }
 
 .pcard{
     font-size: var(--font-size-p);
     color: var(--white-color);
+}
+
+#card1:hover, #card2:hover {
+   background-size: 114%;
 }
 
 @media screen and (max-width:768px){
@@ -54,7 +67,7 @@
    "h1"
    "card1"
    "card2";
-    grid-template-rows: auto minmax(10px, 340px) minmax(10px, 340px);
+    grid-template-rows: auto minmax(10px, 240px) minmax(10px, 240px);
     grid-template-columns: minmax(10px, 440px);
     /* height: calc(100vh - 48px); */
     /* max-height: 60vh; */
