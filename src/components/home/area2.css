@@ -1,5 +1,5 @@
 #containerarea2 {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     margin-top: 20px;
     display: grid;
     justify-items: center;

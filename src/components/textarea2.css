@@ -1,18 +1,20 @@
 #textarea2wrapper{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    width:100%;
 }
 
 #textarea2container{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 860px;
     min-width: 20px;
     margin-right: 40px;
     margin-left: 40px;
+    flex: 1;
 }
 
 .h1{
@@ -47,7 +49,7 @@
 }
 
 #image1textarea2{
-    position: absolute;
+    /* position: absolute; */
     background-image: url('/public/pexels-sonny-17133329.jpg');
    background-size: cover;
    background-position: center;
@@ -58,7 +60,7 @@
 }
 
 #image2textarea2{
-    position: absolute;
+    /* position: absolute; */
     background-image: url('/public/pexels-sonny-17133329.jpg');
    background-size: cover;
    background-position: center;
@@ -69,6 +71,11 @@
     margin-left: 20px;
 }
 
+@media screen and (max-width:1024px){
+    #image1textarea2, #image2textarea2{
+        width:100px
+    }
+}
 
 @media screen and (max-width:768px){
     .h1{
