@@ -37,6 +37,7 @@
     margin-top: 92px;
     padding: 12px max(2px, 100px);
     border-radius: 12px;
+    cursor: pointer;
 }
 
 #textbuttonarea2{
