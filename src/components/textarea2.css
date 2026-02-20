@@ -38,3 +38,9 @@
 #buttonarea2:hover{
     background-color:  var(--secondary-color);
 }
+
+@media screen and (max-width:768px){
+    .h1{
+        font-size: var(--font-size-h1-phone);
+    }
+}
