@@ -6,7 +6,7 @@
    grid-template-columns: clamp(200px, 20vw, 360px) clamp(200px, 20vw, 360px);;
    grid-template-rows: auto clamp(0px, 440px, 640px);
    justify-self: center;
-   gap: 0px 30px;
+   gap: 0px 40px;
    max-width: 60vw;
    min-width: 200px;
    margin-left: 200px;
