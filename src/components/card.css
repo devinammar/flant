@@ -82,10 +82,15 @@
 
 #h1card{
     margin-bottom: 24px;
+    font-size: var(--font-size-h1-phone);
 }
 
 #card1{
     margin-bottom: 24px;
+}
+
+.h2card{
+    font-size: var(--font-size-h2-phone);
 }
 
 /* #card1{
