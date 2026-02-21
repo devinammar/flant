@@ -1,10 +1,11 @@
 import "./area4.css";
+import { Carousel } from "../carousel";
 
 export const Area4 = () => {
   return (
     <>
       <div id="containerarea4">
-        <h1>tes</h1>
+        <Carousel />
       </div>
     </>
   );
