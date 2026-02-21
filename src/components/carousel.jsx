@@ -11,7 +11,7 @@ const image = [
 export const Carousel = () => {
   return (
     <div id="carouselcontainer">
-      <h1 className="h1">Tes</h1>
+      <h1 id="h1carousel">With 30.000+ to be Found. Accompanied by Kingdom, Family, Genus and Latin Name</h1>
       <div id="carousel">
         {image.map((carousel) => (
           <div key={carousel.id}>
