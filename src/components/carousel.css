@@ -1,0 +1,18 @@
+#carouselcontainer{
+    text-align: center;
+}
+
+#carousel{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    margin-top: 24px;
+}
+
+.carouselimage1{
+    width: 40px;
+}
+
+.carouselimage2{
+    width: 70px;
+}
