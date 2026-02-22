@@ -2,12 +2,22 @@
     text-align: center;
 }
 
+#carouselcard{
+    
+}
+
 #carousel{
     display: flex;
     flex-direction: row;
     column-gap: 16px;
     margin-top: 24px;
     justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 5px solid red;
+    /* animation: spin 16s infinite linear; */
 }
 
 #h1carousel{
@@ -15,25 +25,49 @@
     min-width: 20px;
     color: var(--primary-color);
     font-size: var(--font-size-h1);
-    margin: 0px 40px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 24px;
     line-height: 1.7;
 }
 
 .carouselimage1{
-    max-width: 40px;
-    max-height: 100px;
+    height: 200px;
+    width: 140px;
+    object-fit: cover;
 }
 
 .carouselimage2{
-    width: 100px;
-    height: 40px;
-    align-self: center;
-    margin: 0 auto;
+    width: 200px;
+    height: 140px;
     object-fit: cover;
 }
+
+.carouselimage1, .carouselimage2{
+    animation: spin 16s infinite linear;
+}
+
+/* #carouselcard{
+   animation: spin 16s infinite linear;
+} */
 
 @media screen and (max-width: 768px) {
     #h1carousel{
         font-size: var(--font-size-h1-phone);
     }
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(0); /* Mulai dari posisi awal */
+  }
+  33.3% {
+    transform: translateX(-33.3%); /* Geser elemen pertama dan kedua */
+  }
+  66.6% {
+    transform: translateX(-66.6%); /* Geser lebih lanjut */
+  }
+  100% {
+    transform: translateX(-100%); /* Geser seluruhnya ke kiri */
+  }
 }
