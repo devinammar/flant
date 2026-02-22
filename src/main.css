@@ -11,7 +11,8 @@
 }
 
 * {
-  font-family: 'poppins', sans-serif;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,6 +25,7 @@ html, body {
   height: 100%;
   line-height: 1.5;
   background-color: var(--white-color);
+  letter-spacing: 2%;
 }
 
 table {
