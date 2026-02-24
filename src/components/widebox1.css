@@ -21,10 +21,20 @@
     background-size: cover;
     justify-self: center;
     
-    #block1widebox1, #block2widebox1{
+    #block1widebox1, #block2widebox1, #h1widebox{
         display: none;
     }
 }
+
+.searchlabel.on{
+    display: flex;
+}
+
+.searchlabel.off{
+    display: none;
+}
+
+/* .searchlabel.off dan .searchlabel.on blm dibenerin (masih error)*/
 
 #block1widebox1{
     background-color: var(--white-color);

@@ -1,7 +1,8 @@
 import './widebox1.css'
 import { Link } from 'react-router-dom';
+import { Searchbar } from "./search/searchbar";
 
-export const Widebox1 = ({ background }) => {
+export const Widebox1 = ({ background, search }) => {
     return (
         <div className={`containerwidebox1 ${background}`}>
             <div id="block1widebox1">
@@ -11,6 +12,9 @@ export const Widebox1 = ({ background }) => {
             <Link to="/login" id="block2widebox1">
                 <p id="buttonlogin">Login</p>
             </Link>
+            <Searchbar className={`searchlabel ${search}`}/>
+            {/* <Searcbar /> blm dibenerin (masih error), 
+            terutama yang className={`searchlabel ${search}*/}
         </div>
     )
 }
