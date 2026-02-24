@@ -2,23 +2,40 @@
     text-align: center;
 }
 
-#carouselcard{
-    
+#carouselparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 48px);
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 5px solid red; */
 }
 
 #carousel{
     display: flex;
     flex-direction: row;
     column-gap: 16px;
-    margin-top: 24px;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    margin: 0 auto;
-    overflow: hidden;
-    border: 5px solid red;
-    /* animation: spin 16s infinite linear; */
+    animation: spin 16s infinite linear;
 }
+
+#carouselparent:hover #carousel{
+    animation-play-state: paused;
+}
+
+@media screen and (min-width:1920px){
+  #carousel{
+    width: calc(1920px - 48px);
+    /* justify-self: center; */
+  }
+}
+
+/* #carouselcard{
+   animation: spin 16s infinite linear;
+} */
 
 #h1carousel{
     max-width: 860px;
@@ -26,8 +43,8 @@
     color: var(--primary-color);
     font-size: var(--font-size-h1);
     margin: 0 auto;
-    padding: 0 40px;
-    padding-bottom: 24px;
+    padding: 0 28px;
+    padding-bottom: 100px;
     line-height: 1.7;
 }
 
@@ -35,17 +52,19 @@
     height: 200px;
     width: 140px;
     object-fit: cover;
+    border-radius: 16px;
 }
 
 .carouselimage2{
     width: 200px;
     height: 140px;
     object-fit: cover;
+    border-radius: 16px;
 }
 
-.carouselimage1, .carouselimage2{
+/* .carouselimage1, .carouselimage2{
     animation: spin 16s infinite linear;
-}
+} */
 
 /* #carouselcard{
    animation: spin 16s infinite linear;
@@ -61,13 +80,7 @@
   0% {
     transform: translateX(0); /* Mulai dari posisi awal */
   }
-  33.3% {
-    transform: translateX(-33.3%); /* Geser elemen pertama dan kedua */
-  }
-  66.6% {
-    transform: translateX(-66.6%); /* Geser lebih lanjut */
-  }
   100% {
-    transform: translateX(-100%); /* Geser seluruhnya ke kiri */
+    transform: translateX(-30%); /* Geser seluruhnya ke kiri tanpa berhenti */
   }
 }
