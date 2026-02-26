@@ -5,7 +5,7 @@ export const Searchbar = () => {
         <div id="searchbarcontainer">
             <input type="text" placeholder="Search..." id="searchbar"/>
             <button id="buttonsearch">
-                <img src="" />
+                <img src="/public/searchicon3.png" />
             </button>
         </div>
     )
