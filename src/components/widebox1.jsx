@@ -12,9 +12,9 @@ export const Widebox1 = ({ background, search }) => {
             <Link to="/login" id="block2widebox1">
                 <p id="buttonlogin">Login</p>
             </Link>
-            <Searchbar className={`searchlabel ${search}`}/>
-            {/* <Searcbar /> blm dibenerin (masih error), 
-            terutama yang className={`searchlabel ${search}*/}
+            <div className={`searchlabel ${search}`}>
+            <Searchbar />
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import "./searchbar.css"
 
 export const Searchbar = () => {
     return (
-        <div>
+        <div id="searchbarcontainer">
             <input placeholder="Search..." id="searchbar"/> 
         </div>
     )
