@@ -5,7 +5,7 @@ export const Area1 = () => {
     return (
         <>
         <Topbar />
-        <Widebox1 background="image" search="off"/>
+        <Widebox1 background="image" search="off" cardsearch="off" />
         </>
     )
 }

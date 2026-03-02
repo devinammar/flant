@@ -1,0 +1,48 @@
+#cardsearchcontainer {
+    display: grid;
+    grid-template-areas: 
+        "imgresult common"
+        "imgresult scientific"
+        "imgresult family"
+        "imgresult genus";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    width: calc(60vw - 48px);
+    height: auto;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    justify-content: start;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+
+#imageresult{
+    grid-area: imgresult;
+    height: 200px;
+    width: 140px;
+}
+
+#commonresult{
+grid-area: common;
+}
+
+#scientificresult{
+grid-area: scientific;
+}
+
+#familyresult{
+grid-area: family;
+}
+
+#genusresult{
+grid-area: genus;
+}

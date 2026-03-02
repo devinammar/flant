@@ -1,8 +1,9 @@
 import './widebox1.css'
 import { Link } from 'react-router-dom';
 import { Searchbar } from "./search/searchbar";
+import { Cardsearch } from '../components/cardsearch'
 
-export const Widebox1 = ({ background, search }) => {
+export const Widebox1 = ({ background, search, cardsearch }) => {
     return (
         <div className={`containerwidebox1 ${background}`}>
             <div id="block1widebox1">
@@ -14,6 +15,9 @@ export const Widebox1 = ({ background, search }) => {
             </Link>
             <div className={`searchlabel ${search}`}>
             <Searchbar />
+            </div>
+            <div className={`cardresult ${cardsearch}`}>
+            <Cardsearch />
             </div>
         </div>
     )
