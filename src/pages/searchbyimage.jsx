@@ -5,7 +5,7 @@ export const Searchbyimage = () => {
     return (
         <div className='grid'>
         <Topbar />
-        <Widebox1 background="color" search="off" />
+        <Widebox1 background="color" search="off"/>
         </div>
     );
 };
