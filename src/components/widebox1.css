@@ -46,10 +46,20 @@
     background-color: var(--white-color);
     top: 40px;
     display: flex;
+    align-items: center;
     width: calc(100% - 400px);
     height: 74px;
     border-radius: 0px 16px 16px 0px;
     margin-top: 88px;
+}
+
+#flantlogo{
+    height: 36px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
 }
 
 #block2widebox1{
