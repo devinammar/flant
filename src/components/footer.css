@@ -17,6 +17,14 @@
     background-color: var(--white-color);
     width: 100%;
     border-radius: 0px 20px 20px 0px;
+    display: grid;
+}
+
+#flantlogofooter{
+    height: clamp(60px, 6vw, 100px) !important; 
+    width: auto;
+    margin: 16px;
+    place-self: center;
 }
 
 #about{
@@ -82,5 +90,22 @@
     border-radius: 0px 0px 20px 20px;
     display: flex;
     justify-content: center;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1114px) {
+    #flantlogofooter {
+        height: 20px;
+        margin: 10px;
+        place-self: center;
+    }
+}
+
+@media screen and (max-width:400px){
+#flantlogofooter{
+    height: clamp(40px, 6vw, 100px) !important; 
+    width: auto;
+    margin: 16px;
+    place-self: center;
 }
 }

@@ -5,7 +5,8 @@ export const Footer = () => {
   return (
     <div id="footer">
       <div id="logoarea">
-        <p>tes</p>
+        {/* <p>tes</p> */}
+        <img id="flantlogofooter" src="public/flantlogo.png" />
       </div>
       <div className="listarea1">
         <h2 className="h2">About</h2>
