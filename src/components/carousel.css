@@ -81,6 +81,6 @@
     transform: translateX(0); /* Mulai dari posisi awal */
   }
   100% {
-    transform: translateX(-30%); /* Geser seluruhnya ke kiri tanpa berhenti */
+    transform: translateX(-33.33%); /* Geser seluruhnya ke kiri tanpa berhenti */
   }
 }
