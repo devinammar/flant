@@ -4,7 +4,8 @@
         "imgresult common"
         "imgresult scientific"
         "imgresult family"
-        "imgresult genus";
+        "imgresult genus"
+        "imgresult year";
     grid-template-columns: auto auto;
     grid-template-rows: 44px 28px 28px 28px;
     width: calc(60vw - 48px);
@@ -30,7 +31,10 @@ p {
     grid-area: imgresult;
     height: 200px;
     width: 160px;
-    padding-right: 16px;
+    padding-right: 24px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 #commonresult{
@@ -49,6 +53,10 @@ grid-area: family;
 grid-area: genus;
 }
 
+#yearresult{
+    grid-area: year;
+}
+
 @media screen and (max-width:768px){
     #cardsearchcontainer {
     display: grid;
@@ -57,7 +65,8 @@ grid-area: genus;
         "common"
         "scientific"
         "family"
-        "genus";
+        "genus"
+        "year";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     width: calc(60vw - 48px);
