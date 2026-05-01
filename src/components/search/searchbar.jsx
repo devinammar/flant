@@ -1,4 +1,4 @@
-// ini hasil debug
+// ini hasil debugg
 
 import { useState } from "react";
 import "./searchbar.css";
