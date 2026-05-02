@@ -4,9 +4,10 @@ import { useState } from 'react'
 import './widebox1.css'
 import { Link } from 'react-router-dom';
 import { Searchbar } from "./search/searchbar";
-import { Cardsearch } from '../components/cardsearch'
+import { Cardsearch } from '../components/cardsearch';
+import { Aploadphoto } from '../components/aploadphoto';
 
-export const Widebox1 = ({ background, search, cardsearch }) => {
+export const Widebox1 = ({ background, search, cardsearch, appearance }) => {
     const [result, setResult] = useState(null);
 
     return (
@@ -20,6 +21,9 @@ export const Widebox1 = ({ background, search, cardsearch }) => {
             </Link>
             <div className={`searchlabel ${search}`}>
                 <Searchbar onResult={setResult} />
+            </div>
+            <div className={`aploadphotoo ${appearance}`}>
+                <Aploadphoto />
             </div>
             <div className={`cardresult ${cardsearch}`}>
                 <Cardsearch plant={result} />

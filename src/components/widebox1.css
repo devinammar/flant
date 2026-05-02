@@ -42,6 +42,14 @@
    display: none;
 }
 
+.aploadphotoo.on{
+    display: flex;
+}
+
+.aploadphotoo.off{
+    display: none;
+}
+
 #block1widebox1{
     background-color: var(--white-color);
     top: 40px;
