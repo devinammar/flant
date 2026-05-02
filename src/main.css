@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
 :root{
   --primary-color: #28462E;
   --secondary-color: #B3C1B0;
@@ -11,7 +13,7 @@
 }
 
 * {
-  font-family: 'helvetica', sans-serif;
+  font-family: 'plus jakarta sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,14 +23,14 @@
 }
 
 h1, h2{
-  font-weight: 400;
+  font-weight: 600;
 }
 
 html, body {
   height: 100%;
   line-height: 1.5;
   background-color: var(--white-color);
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 table {

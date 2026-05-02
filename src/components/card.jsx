@@ -7,11 +7,11 @@ export const Card = () => {
         <h1 id="h1card">With 2 Main Features</h1>
     <Link id="card1" to="/search">
         <h2 className="h2card">Search</h2>
-        <p className="pcard">Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem lorem</p>
+        <p className="pcard">Search each plant through their name and get full information details</p>
     </Link>
     <Link id="card2" to="/searchbyimage">
         <h2 className="h2card">Search by Image</h2>
-        <p className="pcard">Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem lorem</p>
+        <p className="pcard">Upload a photo of your plant for easier and quicker searching</p>
     </Link>
     </div>
   );

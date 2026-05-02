@@ -14,7 +14,7 @@ export const Widebox1 = ({ background, search, cardsearch }) => {
             <div id="block1widebox1">
                 <img id="flantlogo" src="public/flantlogo.png" />
             </div>
-            <h1 id="h1widebox">Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing</h1>
+            <h1 id="h1widebox">Explore every Leaf, Find every Inch of Root that can be Found</h1>
             <Link to="/login" id="block2widebox1">
                 <p id="buttonlogin">Login</p>
             </Link>

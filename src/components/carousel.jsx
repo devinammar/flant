@@ -18,7 +18,7 @@ const repeatedImages = [...image, ...image, ...image];
 export const Carousel = () => {
   return (
     <div id="carouselcontainer">
-      <h1 id="h1carousel">With 30.000+ to be Found. Accompanied by Kingdom, Family, Genus and Latin Name</h1>
+      <h1 id="h1carousel">With 30.000+ to be Found. Accompanied by Scientific Name, Family, Genus and Year discover</h1>
       <div id="carouselparent">
       <div id="carousel">
         {repeatedImages.map((carousel) => (

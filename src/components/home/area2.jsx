@@ -6,7 +6,7 @@ export const Area2 = () => {
   return (
     <>
       <div id="containerarea2">
-        <Textarea2 h1area2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor " parea2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam aliqua. Ut enim ad minim veniam ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam aliqua. Ut enim ad minim veniam ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam aliqua."/>
+        <Textarea2 h1area2="Becoming a Living Dictionary for every Botanical wonder across the World" parea2="Flant is designed to be your ultimate digital companion in exploring the botanical universe. We combine a massive database of over 30,000 plant species with cutting-edge image recognition technology to provide you with instant, accurate information. Whether you are a professional researcher, a student, or a nature enthusiast, our digital platform offers a seamless way to identify, categorize, and learn about the flora surrounding us"/>
       </div>
     </>
   );
