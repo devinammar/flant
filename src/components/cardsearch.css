@@ -70,7 +70,8 @@ grid-area: genus;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     width: calc(60vw - 48px);
-    height: 232px;
+    height: auto;
+    max-height: 500px;
     background-color: var(--white-color);
     color: var(--text-color);
     margin: 0 auto;
@@ -84,6 +85,32 @@ grid-area: genus;
     max-width: 600px;   /* maksimal lebar 600px */
     height: auto;       /* tinggi mengikuti proporsi gambar */
     max-height: 300px;
-    padding-right: 16px;
+    padding-right: 0px;
+    border-radius: 12px;
+}
+
+#commonresult{
+grid-area: common;
+margin-top: 8px;
+}
+
+#scientificresult{
+grid-area: scientific;
+margin-top: 8px;
+}
+
+#familyresult{
+grid-area: family;
+margin-top: 8px;
+}
+
+#genusresult{
+grid-area: genus;
+margin-top: 8px;
+}
+
+#yearresult{
+    grid-area: year;
+    margin-top: 8px;
 }
 }
