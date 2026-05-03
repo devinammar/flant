@@ -38,15 +38,21 @@
     padding: 12px max(2px, 100px);
     border-radius: 12px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 #textbuttonarea2{
     font-size: var(--font-size-p);
     color: var(--white-color);
+    
 }
 
 #buttonarea2:hover{
     background-color:  var(--secondary-color);
+}
+
+#buttonarea2:hover #textbuttonarea2 {
+    color: var(--primary-color);
 }
 
 #image1textarea2{
