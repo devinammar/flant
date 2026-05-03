@@ -15,11 +15,23 @@
     justify-self: center;
 }
 
-.containerwidebox1.color{
+.containerwidebox1.color1{
     background-color: var(--secondary-color);
     background-position: bottom;
     background-size: cover;
     justify-self: center;
+
+        #block1widebox1, #block2widebox1, #h1widebox{
+        display: none;
+    }
+}
+
+.containerwidebox1.color2{
+    background-color: var(--secondary-color);
+    background-position: bottom;
+    background-size: cover;
+    justify-self: center;
+    grid-template-rows: 292px auto;
     
     #block1widebox1, #block2widebox1, #h1widebox{
         display: none;
@@ -45,6 +57,7 @@
 .aploadphotoo.on{
     display: flex;
     justify-self: center;
+   
 }
 
 .aploadphotoo.off{

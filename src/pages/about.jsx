@@ -5,7 +5,7 @@ export const About = () => {
     return (
         <div className='grid'>
         <Topbar />
-        <Widebox1 background="color" search="off" cardsearch="off"/>
+        <Widebox1 background="color1" search="off" cardsearch="off" appearance="off"/>
         </div>
     );
 };
