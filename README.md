@@ -20,6 +20,22 @@
 
 ## Solution
 
+- ### Providing an Integrated Botanical Database in a Single Platform
+  
+  Flant provides access to plant information by name (both common and scientific), integrated directly with the Trefle.io API — a free, open-source botanical REST API serving as a global plant database with over one million species, covering scientific names, synonyms, taxonomic classifications, and images, with data aggregated from various international sources such as Plants of the World Online (POWO) and USDA Plants. With this approach, users no longer need to open dozens of different sites, all botanical information is available in one easily accessible platform. [Grokipedia](https://grokipedia.com/page/trefle)
+  
+- ### Fast and Accurate Image-Based Plant Identification
+  
+  Flant allows users to identify plants simply by uploading a photo, using Plant.id API technology. Plant.id is capable of identifying more than 35,000 plant classes with a TOP3 identification accuracy of 93%, and the identification process takes a maximum of 2 seconds. With this approach, anyone — even those who are not botanists can instantly identify a plant species without needing to memorize its scientific name. [Plant.id](https://www.kindwise.com/plant-id)
+  
+- ### Use of Scientifically Validated Data Sources
+  
+  To ensure the accuracy of information, Flant exclusively uses data from scientifically tested APIs. A study published in the journal AoB Plants by Hamlyn G. Jones (2020) concluded that AI-based automatic image recognition technology holds significant value for beginners and the general public in identifying plants, while also encouraging greater interest in botanical science. [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7640754/)
+  
+- ### Open Access for Everyone
+  
+  Flant is designed as a free platform accessible to anyone (students, researchers, gardeners, and the general public alike). The Trefle Plant API provides free access to extensive botanical information, making it ideal for building educational applications, with no credit card required and easy integration for developers. This is fully in line with the open access principle in science, where scientific information should be accessible to all without barriers. [FreeAPIHub](https://freeapihub.com/apis/trefle-plants)
+
 ## Software Development Life Cycle
 
 ### Waterfall
