@@ -39,8 +39,21 @@
 ## Software Development Life Cycle
 
 ### Waterfall
-- **Open Access for Everyone**
-- **Open Access for Everyone**
-- **Open Access for Everyone**
-- **Open Access for Everyone**
-- **Open Access for Everyone**
+1. **Problem Identification and Requirements Analysis**
+
+  At this stage, an analysis was conducted regarding the challenges users face in accessing plant information quickly and accurately. It was found that botanical information is scattered across numerous sources, the vast number of plant species makes identification difficult, and data quality from unofficial sources is often inconsistent. Based on this analysis, the system requirements were defined: a centralized, user-friendly plant search platform utilizing validated data sources.
+  
+2. **System Architecture and Design**
+
+  This stage involved designing the overall architecture of the Flant system, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and how search results are displayed to users in card format. Additionally, the tech stack for both the frontend and backend (API handling) was determined.
+  
+3. **Implementation**
+
+  The development process was carried out based on the previously established designs. The frontend was built using HTML, CSS, React.js, and Vite to ensure a responsive and user-friendly interface. Meanwhile, the backend was developed using Node.js and Express to handle requests to external APIs. API keys are stored on the backend for security purposes, and the data received from the APIs is forwarded to the frontend for user display.
+  
+4. **Testing**
+
+  Comprehensive testing was conducted on all system functionalities to ensure they perform as expected. This testing phase covered the search-by-name feature, image-based plant identification, data accuracy within the search result cards, error handling for API timeouts or missing data, and cross-device responsiveness
+  
+5. **Deployment**
+  Once the testing phase was completed, the website was published for general user access. The deployment process was managed through Vercel.
