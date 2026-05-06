@@ -36,7 +36,7 @@
   
   Flant is designed as a free platform accessible to anyone (students, researchers, gardeners, and the general public alike). The Trefle Plant API provides free access to extensive botanical information, making it ideal for building educational applications, with no credit card required and easy integration for developers. This is fully in line with the open access principle in science, where scientific information should be accessible to all without barriers. [FreeAPIHub](https://freeapihub.com/apis/trefle-plants)
 
-## Software Development Life Cycle
+## Software Development Life Cycle (SDLC)
 
 ### Waterfall
 1. **Problem Identification and Requirements Analysis**
