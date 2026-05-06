@@ -39,8 +39,8 @@
 ## Software Development Life Cycle
 
 ### Waterfall
-- ### Open Access for Everyone
-- ### Open Access for Everyone
-- ### Open Access for Everyone
-- ### Open Access for Everyone
-- ### Open Access for Everyone
+- **Open Access for Everyone**
+- **Open Access for Everyone**
+- **Open Access for Everyone**
+- **Open Access for Everyone**
+- **Open Access for Everyone**
