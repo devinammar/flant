@@ -30,7 +30,7 @@
   
 - ### Use of Scientifically Validated Data Sources
   
-  To ensure the accuracy of information, Flant exclusively uses data from scientifically tested APIs. A study published in the journal AoB Plants by Hamlyn G. Jones (2020) concluded that AI-based automatic image recognition technology holds significant value for beginners and the general public in identifying plants, while also encouraging greater interest in botanical science. [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7640754/)
+  To ensure the accuracy of information, Flant exclusively uses data from scientifically tested APIs. A study published in the journal AoB Plants by Hamlyn G. Jones (2020) concluded that automatic image recognition technology holds significant value for beginners and the general public in identifying plants, while also encouraging greater interest in botanical science. [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7640754/)
   
 - ### Open Access for Everyone
   
