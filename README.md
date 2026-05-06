@@ -26,7 +26,7 @@
   
 - ### Fast and Accurate Image-Based Plant Identification
   
-  Flant allows users to identify plants simply by uploading a photo, using Plant.id API technology. Plant.id is capable of identifying more than 35,000 plant classes with a TOP3 identification accuracy of 93%, and the identification process takes a maximum of 2 seconds. With this approach, anyone — even those who are not botanists can instantly identify a plant species without needing to memorize its scientific name. [Plant.id](https://www.kindwise.com/plant-id)
+  Flant allows users to identify plants simply by uploading a photo, using Plant.id API technology. Plant.id is capable of identifying more than 35,000 plant classes with a TOP3 identification accuracy of 93%, and the identification process takes a maximum of 2 seconds. With this approach, anyone even those who are not botanists can instantly identify a plant species without needing to memorize its scientific name. [Plant.id](https://www.kindwise.com/plant-id)
   
 - ### Use of Scientifically Validated Data Sources
   
