@@ -58,3 +58,5 @@ app.post('/api/searchbyimage', upload.single('image'), async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server berjalan di http://localhost:${PORT}`);
 });
+
+// 2 fitur masih blm bisa, setelah backend di deploy ke Railway
