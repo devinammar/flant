@@ -44,6 +44,8 @@ export const Aploadphoto = ({ onResult }) => {
   );
 };
 
+// ______________________________________________
+
 // ini bikinan sendiri
 
 // import "./aploadphoto.css";
