@@ -1,3 +1,5 @@
+//ini isinya cuma pengambilan data dari API untuk kedua fitur (search dan search by image)
+
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -7,7 +9,12 @@ const upload = multer();
 const app = express();
 const PORT = 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://flant.vercel.app"
+  ]
+}));
 app.use(express.json());
 
 // utk fitur search
