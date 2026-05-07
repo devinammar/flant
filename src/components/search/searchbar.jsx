@@ -8,7 +8,7 @@ export const Searchbar = ({ onResult }) => {
 
   const handleSearch = async () => {
     if (!query) return;
-    const res = await fetch(`http://localhost:5000/api/search?query=${query}`);
+    const res = await fetch(`https://flant-production.up.railway.app/api/search?query=${query}`);
     const data = await res.json();
     onResult(data);
   };

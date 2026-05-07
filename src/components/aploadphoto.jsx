@@ -12,7 +12,7 @@ export const Aploadphoto = ({ onResult }) => {
     const formData = new FormData();
     formData.append("image", file);
 
-    const res = await fetch("http://localhost:5000/api/searchbyimage", {
+    const res = await fetch("https://flant-production.up.railway.app/api/searchbyimage", {
       method: "POST",
       body: formData,
     });
