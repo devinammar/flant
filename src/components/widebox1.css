@@ -9,7 +9,7 @@
 }
 
 .containerwidebox1.image{
-    background-image: url('/public/wideimage4-1920x1118.jpg');
+    background-image: url('/wideimage4-1920x1118.jpg');
     background-position: bottom;
     background-size: cover;
     justify-self: center;

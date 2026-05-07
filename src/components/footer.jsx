@@ -6,7 +6,7 @@ export const Footer = () => {
     <div id="footer">
       <div id="logoarea">
         {/* <p>tes</p> */}
-        <img id="flantlogofooter" src="public/flantlogo.png" />
+        <img id="flantlogofooter" src="/flantlogo.png" />
       </div>
       <div className="listarea1">
         <h2 className="h2">About</h2>

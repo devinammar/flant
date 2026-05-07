@@ -57,7 +57,7 @@
 
 #image1textarea2{
     /* position: absolute; */
-    background-image: url('public/pexels-gezerasph-24880215.jpg');
+    background-image: url('/pexels-gezerasph-24880215.jpg');
    background-size: cover;
    background-position: center;
     height: 560px;
@@ -68,7 +68,7 @@
 
 #image2textarea2{
     /* position: absolute; */
-    background-image: url('public/pexels-maccoy-travasso-203573694-11627344.jpg');
+    background-image: url('/pexels-maccoy-travasso-203573694-11627344.jpg');
    background-size: cover;
    background-position: center;
     height: 560px;
