@@ -23,9 +23,9 @@ export const Widebox1 = ({ background, search, cardsearch, appearance }) => {
                 <Searchbar onResult={setResult} />
             </div>
             <div className={`aploadphotoo ${appearance}`}>
-                <Aploadphoto />
+                <Aploadphoto onResult={setResult} />
             </div>
-            <div className={`cardresult ${cardsearch}`}>
+            <div className={`cardresult on`}>
                 <Cardsearch plant={result} />
             </div>
         </div>
