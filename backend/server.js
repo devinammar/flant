@@ -9,12 +9,13 @@ const upload = multer();
 const app = express();
 const PORT = 5000;
 
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://flant.vercel.app"
-  ]
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: [
+//     "http://localhost:5173",
+//     "https://flant.vercel.app"
+//   ]
+// }));
 app.use(express.json());
 
 // utk fitur search
