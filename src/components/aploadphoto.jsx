@@ -12,6 +12,7 @@ export const Aploadphoto = ({ onResult }) => {
     const formData = new FormData();
     formData.append("image", file);
 
+    // ambil data dari file backend (file backend udah di deploy di Railway)
     const res = await fetch("https://flant-production.up.railway.app/api/searchbyimage", {
       method: "POST",
       body: formData,
