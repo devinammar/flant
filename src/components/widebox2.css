@@ -1,5 +1,5 @@
 #containerwidebox2 {
-    background-image: url('public/footerimage.jpg');
+    background-image: url('/footerimage.jpg');
     background-position: center;
     background-size: cover;
     justify-self: center;
