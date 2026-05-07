@@ -41,7 +41,7 @@ tes
 ## Software Development Life Cycle (SDLC)
 
 ### Waterfall
-![SDLC](https://github.com/devinammar/flant/blob/e60fcbee9335a636bdff64838e67739726fb2a8d/SDLC.png)
+![SDLC](https://github.com/devinammar/flant/blob/c7d86297842cf1239fe4353f56ec1bdc477a71c4/Waterfall-SDLC.png)
 1. **Problem Identification and Requirements Analysis**
 
    At this stage, an analysis was conducted regarding the challenges users face in accessing plant information quickly and accurately. It was found that botanical information is scattered across numerous sources, the vast number of plant species makes identification difficult, and data quality from unofficial sources is often inconsistent. Based on this analysis, the system requirements were defined: a centralized, user-friendly plant search platform utilizing validated data sources.
