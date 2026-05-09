@@ -73,3 +73,5 @@ tes
 - ### Photoshop
 - ### Vercel
 - ### Railway
+
+All stock photos used for this project are from Pexels and Unsplash
