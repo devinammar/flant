@@ -63,3 +63,12 @@ tes
    Once the testing phase was completed, the website was published for general user access. The deployment process was managed through Vercel.
 
 ## Tech Stack
+
+- ### HTML, CSS, ReactJS, Vite
+- ### Node.js
+- ### API:
+  **Trefle.io**
+  **my.plantnet.org**
+- ### Photoshop
+- ### Vercel
+- ### Railway
