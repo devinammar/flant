@@ -70,3 +70,20 @@ label {
 .box__error {
   display: none;
 }
+
+#previewcontainer {
+  margin-top: 16px;
+}
+
+#previewimage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+#previewname {
+  color: var(--white-color);
+  font-size: var(--font-size-p);
+}
