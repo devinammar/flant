@@ -64,8 +64,8 @@ tes
 
 ## Tech Stack
 
-- ### HTML, CSS, ReactJS, Vite
-- ### Node.js
+- ### HTML, CSS, ReactJS + Vite
+- ### Node.js & Express.js
 - ### API:
   **Trefle.io**
   
