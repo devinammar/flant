@@ -70,6 +70,7 @@ tes
   **Trefle.io**
   
   **my.plantnet.org**
+- ### Figma
 - ### Photoshop
 - ### Vercel
 - ### Railway
