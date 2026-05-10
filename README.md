@@ -1,6 +1,6 @@
 # Flant
 
-Current estimates put the total number of plant species at approximately 390,000, with thousands of new vascular plants still being discovered each year. With such a vast number of species and their wide range of physical varia
+Flant is a botanical platform based on plant identification, where anyone can search for plants by name or image from any species and get information containing the common name, scientific name, family, genus, year identified, and plant image in a single card view.
 
 ## ✨ Features
 
