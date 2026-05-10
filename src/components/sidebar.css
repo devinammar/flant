@@ -1,14 +1,19 @@
 #hamburger {
   display: none;
   position: fixed;
-  top: 10px;
+  top: 16px;
   left: 24px;
   z-index: 1000;
   background: none;
   border: none;
-  font-size: 24px;
+  /* font-size: 24px; */
   cursor: pointer;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+}
+
+#hamburger img {
+  width: 24px;
+  height: 24px;
 }
 
 #sidebar {

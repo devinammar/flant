@@ -9,8 +9,12 @@ export const Sidebar = () => {
 
   return (
     <>
-      <button id="hamburger" onClick={() => setIsOpen(!isOpen)}>
+      {/* <button id="hamburger" onClick={() => setIsOpen(!isOpen)}>
         ☰
+      </button> */}
+
+      <button id="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        <img src="/hamburgericon2.png" alt="menu" />
       </button>
 
       {isOpen && (
