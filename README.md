@@ -4,8 +4,8 @@ tes
 
 ## ✨ Features
 
-1. ### Search by Name
-2. ### Search by Image
+### 1. Search by Name
+### 2. Search by Image
 
 ## 🧩 Problem
 
