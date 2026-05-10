@@ -2,7 +2,7 @@
 
 tes
 
-## Problem
+## 🧩Problem
 
 - ### There are Hundreds of Thousands Plant Species in the World, Making Identification Difficult
   
@@ -20,7 +20,7 @@ tes
   
   Open access to scientific literature and related data is a powerful mechanism for creating and validating knowledge, and for supporting the development of science as a public good. It is consistent with the Principle of Universality of Science, which requires freedom of communication for scientists, as well as equitable access to data, information, and other resources for research. Furthermore, the UNESCO Recommendation on Open Science affirms that open science furthers the right of everyone to share in scientific advancement and its benefits, as stated in Article 27.1 of the Universal Declaration of Human Rights. [UNESCO](https://www.unesco.org/en/open-science/about) [International Science Council](https://council.science/publications/open-access-to-scientific-data-and-literature-and-the-assessment-of-research-by-metrics/)
 
-## Solution
+## 💡Solution
 
 - ### Providing an Integrated Botanical Database in a Single Platform
   
@@ -38,7 +38,7 @@ tes
   
   Flant is designed as a free platform accessible to anyone (students, researchers, gardeners, and the general public alike). The Trefle Plant API provides free access to extensive botanical information, making it ideal for building educational applications, with no credit card required and easy integration for developers. This is fully in line with the open access principle in science, where scientific information should be accessible to all without barriers. [FreeAPIHub](https://freeapihub.com/apis/trefle-plants)
 
-## Software Development Life Cycle (SDLC)
+## 🔄Software Development Life Cycle (SDLC)
 
 ### Waterfall
 ![SDLC](https://github.com/devinammar/flant/blob/76260a99a071b34d792db270d95d54534fb0aedf/SDLC-Waterfall.png)
@@ -63,7 +63,7 @@ tes
 
    Once the testing phase was completed, the website was published for general user access. The deployment process was managed through Vercel.
 
-## Tech Stack
+## 🛠️Tech Stack
 
 - ### HTML, CSS, ReactJS + Vite
 - ### Node.js & Express.js
