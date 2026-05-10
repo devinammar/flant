@@ -16,8 +16,9 @@ https://flant.vercel.app
 
 This platform provides 2 features that users can utilize. Below is an explanation of both features and their functionalities.
 
-1. ### Search by Name
-### 2. Search by Image
+> ### 1. Search by Name
+
+> ### 2. Search by Image
 
 ## 🧩 Problem
 
