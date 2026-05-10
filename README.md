@@ -4,6 +4,9 @@ tes
 
 ## ✨ Features
 
+1. ### Search by Name
+2. ### Search by Image
+
 ## 🧩 Problem
 
 - ### There are Hundreds of Thousands Plant Species in the World, Making Identification Difficult
@@ -77,5 +80,6 @@ tes
 - ### Adobe Photoshop
 - ### Vercel
 - ### Railway
+
 
 All stock photos used for this project are from Pexels and Unsplash
