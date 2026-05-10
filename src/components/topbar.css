@@ -14,10 +14,13 @@
 .listtopbar a{
     gap: 100px;
     color: inherit;
+    display: inline-block;
+    transition: transform 0.2s ease;
 }
 
 .listtopbar a:hover{
-    color: var(--text-color);
+    transform: scale(1.03);
+    color: var(--secondary-color);
 }
 
 @media screen and (max-width:1360px){
