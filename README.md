@@ -48,7 +48,8 @@ tes
   
 3. **System Architecture and Design**
 
-   This stage involved designing the overall architecture of the Flant system, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and how search results are displayed to users in card format. Additionally, the tech stack for both the frontend and backend (API handling) was determined.
+   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
+
   
 3. **Implementation**
 
@@ -71,7 +72,7 @@ tes
   
   **my.plantnet.org**
 - ### Figma
-- ### Photoshop
+- ### Adobe Photoshop
 - ### Vercel
 - ### Railway
 
