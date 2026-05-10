@@ -4,6 +4,10 @@ Flant is a botanical platform based on plant identification, where anyone can se
 
 [![Flant](https://img.shields.io/badge/Flant-Visit-green)](https://flant.vercel.app)
 
+<a href="https://flant.vercel.app">
+  <img src="https://raw.githubusercontent.com/devinammar/flant/4b4b41ce50e1f29c1e92b68c2956306d5ece7c3f/public/flantlogosmall3.png" height="20"/> Flant
+</a>
+
 ## ✨ Features
 
 Current estimates put the total number of plant species at approximately 390,000, with thousands of new vascular plants still being discovered each year. With such a vast number of species and their wide range of physical varia
