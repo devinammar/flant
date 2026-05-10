@@ -37,7 +37,10 @@
 
 
 @media screen and (max-width:768px){
-     #containertopbar {
+    .listtopbar {
         display: none;
+}
+    #containertopbar {
+        height: 20px;
 }
 }
