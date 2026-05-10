@@ -5,8 +5,9 @@ Current estimates put the total number of plant species at approximately 390,000
 ## ✨ Features
 
 Current estimates put the total number of plant species at approximately 390,000, with thousands of new vascular plants still being discovered each year. With such a vast number of species and their wide range of physical varia
-  ### 1. Search by Name
-  ### 2. Search by Image
+
+### 1. Search by Name
+### 2. Search by Image
 
 ## 🧩 Problem
 
