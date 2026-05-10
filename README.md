@@ -14,10 +14,10 @@ https://flant.vercel.app
 
 ## ✨ Features
 
-Current estimates put the total number of plant species at approximately 390,000, with thousands of new vascular plants still being discovered each year. With such a vast number of species and their wide range of physical varia
+This platform provides 2 features that users can utilize. Below is an explanation of both features and their functionalities.
 
-### 1. Search by Name 🌿
-### 2. Search by Image 📷
+### 1. Search by Name
+### 2. Search by Image
 
 ## 🧩 Problem
 
