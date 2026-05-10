@@ -2,7 +2,7 @@
 
 Flant is a botanical platform based on plant identification, where anyone can search for plants by name or image from any species and get information containing the common name, scientific name, family, genus, year identified, and plant image in a single card view. With a user-friendly interface, Flant is designed to simplify access to botanical information quickly and factually, while also serving as a real contribution to the SDGs, particularly in supporting biodiversity conservation and improving environmental literacy.
 
-[![Flant](https://img.shields.io/badge/Flant-Visit-black)](https://flant.vercel.app)
+[![Flant](https://img.shields.io/badge/Flant-Visit-green)](https://flant.vercel.app)
 
 ## ✨ Features
 
