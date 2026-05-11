@@ -71,7 +71,7 @@ grid-area: genus;
     grid-template-rows: auto auto auto auto;
     width: calc(60vw - 48px);
     height: auto;
-    max-height: 500px;
+    /* max-height: 500px; */
     background-color: var(--white-color);
     color: var(--text-color);
     margin: 0 auto;
