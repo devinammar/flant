@@ -31,7 +31,7 @@
     background-position: bottom;
     background-size: cover;
     justify-self: center;
-    grid-template-rows: 292px auto;
+    /* grid-template-rows: 292px auto; */
     height: auto;        /* biar cardresult ga keluar batas */
     /* min-height: calc(100vh - 70px);  biar cardresult ga keluar batas */
     max-height: none;    /* biar cardresult ga keluar batas */
@@ -76,6 +76,13 @@
     background: var(--secondary-color);
     border-radius: 28px;
 } */
+
+#aploadfeature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: fit-content;
+}
 
 #block1widebox1{
     background-color: var(--white-color);
