@@ -69,9 +69,10 @@ grid-area: genus;
         "year";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    width: calc(60vw - 48px);
+    /* width: calc(60vw - 48px); */   /* ngetes biar cardresult ga keluar batas */
+    width: calc(100% - 32px);
     height: auto;
-    /* max-height: 500px; */
+    /* max-height: 500px; */  /* ngetes biar cardresult ga keluar batas */
     background-color: var(--white-color);
     color: var(--text-color);
     margin: 0 auto;
