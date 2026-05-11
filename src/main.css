@@ -45,3 +45,15 @@ table {
     justify-self: center;
   }
 }
+
+/* ngerapihin jika layar di maximize (khusus untuk page search by image) */
+@media screen and (min-width:1920px){
+  .gridsearchbyimage{
+    width:1920px;
+    justify-self: center;
+  }
+}
+
+.gridsearchbyimage {
+  min-height: 100%;
+}

@@ -33,7 +33,7 @@
     justify-self: center;
     grid-template-rows: 292px auto;
     height: auto;        /* biar cardresult ga keluar batas */
-    min-height: calc(100vh - 70px);  /* biar cardresult ga keluar batas */
+    /* min-height: calc(100vh - 70px);  biar cardresult ga keluar batas */
     max-height: none;    /* biar cardresult ga keluar batas */
     
     #block1widebox1, #block2widebox1, #h1widebox{
