@@ -1,8 +1,26 @@
 # Flant
 
-tes
+Flant is a botanical platform based on plant identification, where anyone can search for plants by name or image from any species and get information containing the common name, scientific name, family, genus, year identified, and plant image in a single card view. With a user-friendly interface, Flant is designed to simplify access to botanical information quickly and factually, while also serving as a real contribution to the SDGs, particularly in supporting biodiversity conservation and improving environmental literacy.
 
-## Problem
+Click this to open the website :
+
+[![Flant](https://img.shields.io/badge/Flant-Visit-green)](https://flant.vercel.app)
+
+Or you can copy this link and paste it into your browser:
+
+```
+https://flant.vercel.app
+```
+
+## ✨ Features
+
+This platform provides 2 features that users can utilize. Below is an explanation of both features and their functionalities.
+
+<h3>&nbsp;&nbsp;&nbsp; 1. Search by Name</h3>
+
+<h3>&nbsp;&nbsp;&nbsp; 2. Search by Image</h3>
+
+## 🧩 Problem
 
 - ### There are Hundreds of Thousands Plant Species in the World, Making Identification Difficult
   
@@ -20,7 +38,7 @@ tes
   
   Open access to scientific literature and related data is a powerful mechanism for creating and validating knowledge, and for supporting the development of science as a public good. It is consistent with the Principle of Universality of Science, which requires freedom of communication for scientists, as well as equitable access to data, information, and other resources for research. Furthermore, the UNESCO Recommendation on Open Science affirms that open science furthers the right of everyone to share in scientific advancement and its benefits, as stated in Article 27.1 of the Universal Declaration of Human Rights. [UNESCO](https://www.unesco.org/en/open-science/about) [International Science Council](https://council.science/publications/open-access-to-scientific-data-and-literature-and-the-assessment-of-research-by-metrics/)
 
-## Solution
+## 💡 Solution
 
 - ### Providing an Integrated Botanical Database in a Single Platform
   
@@ -38,7 +56,7 @@ tes
   
   Flant is designed as a free platform accessible to anyone (students, researchers, gardeners, and the general public alike). The Trefle Plant API provides free access to extensive botanical information, making it ideal for building educational applications, with no credit card required and easy integration for developers. This is fully in line with the open access principle in science, where scientific information should be accessible to all without barriers. [FreeAPIHub](https://freeapihub.com/apis/trefle-plants)
 
-## Software Development Life Cycle (SDLC)
+## 📋 Software Development Life Cycle (SDLC)
 
 ### Waterfall
 ![SDLC](https://github.com/devinammar/flant/blob/76260a99a071b34d792db270d95d54534fb0aedf/SDLC-Waterfall.png)
@@ -48,7 +66,8 @@ tes
   
 3. **System Architecture and Design**
 
-   This stage involved designing the overall architecture of the Flant system, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and how search results are displayed to users in card format. Additionally, the tech stack for both the frontend and backend (API handling) was determined.
+   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
+
   
 3. **Implementation**
 
@@ -62,7 +81,7 @@ tes
 
    Once the testing phase was completed, the website was published for general user access. The deployment process was managed through Vercel.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - ### HTML, CSS, ReactJS + Vite
 - ### Node.js & Express.js
@@ -71,8 +90,9 @@ tes
   
   **my.plantnet.org**
 - ### Figma
-- ### Photoshop
+- ### Adobe Photoshop
 - ### Vercel
 - ### Railway
+
 
 All stock photos used for this project are from Pexels and Unsplash
