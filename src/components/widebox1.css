@@ -70,7 +70,8 @@
     display: flex;
     flex-direction: column;
     overflow: visible;
-    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
     align-items: center;
     background: var(--secondary-color);
     border-radius: 28px;
