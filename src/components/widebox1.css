@@ -72,6 +72,8 @@
     overflow: visible;
     width: 100%;
     align-items: center;
+    background: var(--secondary-color);
+    border-radius: 28px;
 }
 
 #block1widebox1{
