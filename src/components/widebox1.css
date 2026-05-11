@@ -85,7 +85,7 @@
     width: 100%;
     height: calc(100vh - 70px);
     min-height: fit-content;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 #block1widebox1{
