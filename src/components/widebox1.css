@@ -36,7 +36,6 @@
     height: auto;        /* biar cardresult ga keluar batas */
     /* min-height: calc(100vh - 70px);  biar cardresult ga keluar batas */
     max-height: none;    /* biar cardresult ga keluar batas */
-    margin-bottom: 24px;   /* biar cardresult ga keluar batas */
     
     #block1widebox1, #block2widebox1, #h1widebox{
         display: none;
@@ -85,7 +84,8 @@
     align-items: center;
     width: 100%;
     min-height: fit-content;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 24px;   /* biar cardresult ga keluar batas */
 }
 
 #block1widebox1{
