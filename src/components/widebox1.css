@@ -71,6 +71,7 @@
     flex-direction: column;
     overflow: visible;
     width: 100%;
+    align-items: center;
 }
 
 #block1widebox1{
