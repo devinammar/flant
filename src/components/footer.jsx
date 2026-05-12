@@ -12,13 +12,13 @@ export const Footer = () => {
         <h2 className="h2">About</h2>
         <ul id="about">
           <li className="listabout">
-            <Link to="/">Company</Link>
+            <Link to="/">About Flant</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Team</Link>
+            <Link to="/">How it Works</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Help & Support</Link>
+            <Link to="/">Tech Stack</Link>
           </li>
           <li className="listabout">
             <Link to="/">License</Link>
@@ -29,16 +29,16 @@ export const Footer = () => {
         <h2 className="h2">Resource</h2>
         <ul id="about">
           <li className="listabout">
-            <Link to="/">Company</Link>
+            <Link to="/">API Reference</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Team</Link>
+            <Link to="/">Photo Assets</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Help & Support</Link>
+            <Link to="/">Species Index</Link>
           </li>
           <li className="listabout">
-            <Link to="/">License</Link>
+            <Link to="/">Conservation Info</Link>
           </li>
         </ul>
       </div>
@@ -46,16 +46,16 @@ export const Footer = () => {
         <h2 className="h2">Contact</h2>
         <ul id="about">
           <li className="listabout">
-            <Link to="/">Company</Link>
+            <Link to="/">GitHub</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Team</Link>
+            <Link to="/">Email</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Help & Support</Link>
+            <Link to="/">LinkedIn</Link>
           </li>
           <li className="listabout">
-            <Link to="/">License</Link>
+            <Link to="/">Instagram</Link>
           </li>
         </ul>
       </div>
