@@ -22,7 +22,7 @@ app.use(express.json());
 app.get('/api/search', async (req, res) => {
   const query = req.query.query;
   try {
-    const response = await axios.get(`https://trefle.io/api/v1/plants/search?token=usr-Wg12CcnVrvH6gbaKaVes8tL7sv-T46aGytGd_l3rP5s&q=${query}`);
+    const response = await axios.get(`https://trefle.io/api/v1/plants/search?token=${process.env.TREFLE_TOKEN}&q=${query}`);
     res.json(response.data.data[0]);
   } catch (error) {
     console.error(error);
@@ -37,7 +37,7 @@ app.post('/api/searchbyimage', upload.single('image'), async (req, res) => {
     form.append('images', req.file.buffer, req.file.originalname);
 
     const plantnetRes = await axios.post(
-      'https://my-api.plantnet.org/v2/identify/all?api-key=2b10YywZzJthAm0Lq62Wd4dBe',
+      `https://trefle.io/api/v1/plants/search?token=${process.env.TREFLE_TOKEN}&q=${query}`,
       form,
       { headers: form.getHeaders() }
     );
@@ -46,7 +46,7 @@ app.post('/api/searchbyimage', upload.single('image'), async (req, res) => {
     const plantName = plantnetRes.data.results[0].species.scientificNameWithoutAuthor;
 
     // Trefle.io
-    const trefleRes = await axios.get(`https://trefle.io/api/v1/plants/search?token=usr-Wg12CcnVrvH6gbaKaVes8tL7sv-T46aGytGd_l3rP5s&q=${plantName}`);
+    const trefleRes = await axios.get(`https://trefle.io/api/v1/plants/search?token=${process.env.TREFLE_TOKEN}&q=${plantName}`);
     res.json(trefleRes.data.data[0]);
 
   } catch (error) {
