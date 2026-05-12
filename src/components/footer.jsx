@@ -38,7 +38,7 @@ export const Footer = () => {
             <Link to="/">Species Index</Link>
           </li>
           <li className="listabout">
-            <Link to="/">Conservation Info</Link>
+            <Link to="/">Habitat Info</Link>
           </li>
         </ul>
       </div>
