@@ -7,7 +7,7 @@ import { Searchbar } from "./search/searchbar";
 import { Cardsearch } from '../components/cardsearch';
 import { Aploadphoto } from '../components/aploadphoto';
 
-export const Widebox1 = ({ background, search, cardsearch, appearance }) => {
+export const Widebox1 = ({ background, search, cardsearch, appearance, configuration }) => {
     const [result, setResult] = useState(null);
 
     return (
