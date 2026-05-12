@@ -1,5 +1,7 @@
 //ini isinya cuma pengambilan data dari API untuk kedua fitur (search dan search by image)
 
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -37,7 +39,7 @@ app.post('/api/searchbyimage', upload.single('image'), async (req, res) => {
     form.append('images', req.file.buffer, req.file.originalname);
 
     const plantnetRes = await axios.post(
-      `https://trefle.io/api/v1/plants/search?token=${process.env.TREFLE_TOKEN}&q=${query}`,
+      `https://my-api.plantnet.org/v2/identify/all?api-key=${process.env.API_KEY_PLANTNET}`,
       form,
       { headers: form.getHeaders() }
     );
