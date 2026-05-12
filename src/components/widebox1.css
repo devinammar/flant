@@ -129,6 +129,11 @@ font-size: var(--font-size-p);
 font-weight: 500;
 }
 
+#block2widebox1:hover #buttonlogin {
+    transform: scale(1.03);
+    color: var(--secondary-color);
+}
+
 /* Min width 1920px*/
 @media screen and (min-width:1920px){
   #block2widebox1{
