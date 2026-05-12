@@ -6,7 +6,7 @@ export const Search = () => {
     return (
         <div className='grid'>
         <Topbar />
-        <Widebox1 background="color1" search="on" appearance="off"/>
+        <Widebox1 background="color1" search="on" appearance="off" configuration="one"/>
         <Sidebar />
         </div>
     );
