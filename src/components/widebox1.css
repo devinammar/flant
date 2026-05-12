@@ -67,17 +67,6 @@
     display: none;
 }
 
-/* #aploadfeature {
-    display: flex;
-    flex-direction: column;
-    overflow: visible;
-    height: 100%;
-    margin-bottom: 24px;
-    align-items: center;
-    background: var(--secondary-color);
-    border-radius: 28px;
-} */
-
 .aploadfeature.one {
  
 }
