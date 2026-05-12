@@ -16,9 +16,11 @@ https://flant.vercel.app
 
 This platform provides 2 features that users can utilize. Below is an explanation of both features and their functionalities.
 
-<h3>&nbsp;&nbsp;&nbsp; 1. Search by Name</h3>
+### 1. Search by Name
+This feature allows users to search for plant information by name. Users can type the plant name (common name or scientific name) in the search field, then press the search button or Enter. The system will display detailed information about the relevant plant, including common name, scientific name, family, genus, and the year it was identified.
 
-<h3>&nbsp;&nbsp;&nbsp; 2. Search by Image</h3>
+### 2. Search by Image
+This feature allows users to identify plants through photos. Users can upload a plant image by selecting a file from their device or by dragging and dropping the image into the designated area. Once the image is uploaded, the system will analyze it and display information about the identified plant, including common name, scientific name, family, genus, and the year it was identified.
 
 ## 🧩 Problem
 
