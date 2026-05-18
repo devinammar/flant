@@ -90,7 +90,7 @@ This feature allows users to identify plants through photos. Users can upload a 
 - ### API:
   **Trefle.io**
   
-  **Plantnet.org**
+  **PlantNet.org**
 - ### Figma
 - ### Adobe Photoshop
 - ### Vercel
