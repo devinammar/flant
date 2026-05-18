@@ -34,7 +34,7 @@ This feature allows users to identify plants through photos. Users can upload a 
   
 - ### Data Quality from Non-Experts Is Inconsistent
   
-  Data collected in the field by non-experts (citizen scientists) is difficult to ensure in terms of accuracy and completeness, as it is gathered by individuals with varying levels of training and expertise. While the majority of non-expert data tends to be accurate in what was observed, it is often incomplete — non-experts detect less information than experts do. This underscores the need for a platform that provides validated data from trusted sources (such as the Trefle.io API and Plantnet.org API). [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC5567195/)
+  Data collected in the field by non-experts (citizen scientists) is difficult to ensure in terms of accuracy and completeness, as it is gathered by individuals with varying levels of training and expertise. While the majority of non-expert data tends to be accurate in what was observed, it is often incomplete — non-experts detect less information than experts do. This underscores the need for a platform that provides validated data from trusted sources (such as the Trefle.io API and PlantNet.org API). [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC5567195/)
   
 - ### The Need for Open Access to Scientific Data
   
@@ -44,11 +44,11 @@ This feature allows users to identify plants through photos. Users can upload a 
 
 - ### Providing an Integrated Botanical Database in a Single Platform
   
-  Flant provides access to plant information by name (both common and scientific), integrated directly with the Trefle.io API — a free, open-source botanical REST API serving as a global plant database with over one million species, covering scientific names, synonyms, taxonomic classifications, and images, with data aggregated from various international sources such as Plants of the World Online (POWO) and USDA Plants. With this approach, users no longer need to open dozens of different sites, all botanical information is available in one easily accessible platform. [Grokipedia](https://grokipedia.com/page/trefle)
+  Flant provides access to plant information by name (both common and scientific), integrated directly with the Trefle.io API, a free open-source botanical REST API serving as a global plant database with over one million species, covering scientific names, synonyms, taxonomic classifications, and images, with data aggregated from various international sources such as Plants of the World Online (POWO) and USDA Plants. With this approach, users no longer need to open dozens of different sites, all botanical information is available in one easily accessible platform. [Grokipedia](https://grokipedia.com/page/trefle)
   
 - ### Fast and Accurate Image-Based Plant Identification
   
-  Flant allows users to identify plants simply by uploading a photo, using Plant.id API technology. Plant.id is capable of identifying more than 35,000 plant classes with a TOP3 identification accuracy of 93%, and the identification process takes a maximum of 2 seconds. With this approach, anyone even those who are not botanists can instantly identify a plant species without needing to memorize its scientific name. [Plant.id](https://www.kindwise.com/plant-id)
+  Flant allows users to identify plants simply by uploading a photo, using the PlantNet.org API. PlantNet is a citizen science platform developed by a consortium of four French research institutes: CIRAD, Inria, IRD, and INRAE, along with the One Science Montpellier Foundation. Using the PlantNet API, the platform is capable of identifying nearly 60,000 plant species worldwide. [PlanetNet](https://docs.plantnet.org/en/introduction-to-plantnet/)
   
 - ### Use of Scientifically Validated Data Sources
   
@@ -68,7 +68,7 @@ This feature allows users to identify plants through photos. Users can upload a 
   
 3. **System Architecture and Design**
 
-   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and Plantnet.org API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
+   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and PlantNet.org API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
 
   
 3. **Implementation**
