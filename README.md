@@ -34,7 +34,7 @@ This feature allows users to identify plants through photos. Users can upload a 
   
 - ### Data Quality from Non-Experts Is Inconsistent
   
-  Data collected in the field by non-experts (citizen scientists) is difficult to ensure in terms of accuracy and completeness, as it is gathered by individuals with varying levels of training and expertise. While the majority of non-expert data tends to be accurate in what was observed, it is often incomplete — non-experts detect less information than experts do. This underscores the need for a platform that provides validated data from trusted sources (such as the Trefle.io API and plant.id API). [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC5567195/)
+  Data collected in the field by non-experts (citizen scientists) is difficult to ensure in terms of accuracy and completeness, as it is gathered by individuals with varying levels of training and expertise. While the majority of non-expert data tends to be accurate in what was observed, it is often incomplete — non-experts detect less information than experts do. This underscores the need for a platform that provides validated data from trusted sources (such as the Trefle.io API and Plantnet.org API). [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC5567195/)
   
 - ### The Need for Open Access to Scientific Data
   
@@ -68,7 +68,7 @@ This feature allows users to identify plants through photos. Users can upload a 
   
 3. **System Architecture and Design**
 
-   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and Plant.id API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
+   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and Plantnet.org API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
 
   
 3. **Implementation**
@@ -90,7 +90,7 @@ This feature allows users to identify plants through photos. Users can upload a 
 - ### API:
   **Trefle.io**
   
-  **my.plantnet.org**
+  **Plantnet.org**
 - ### Figma
 - ### Adobe Photoshop
 - ### Vercel
