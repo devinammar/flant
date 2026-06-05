@@ -68,7 +68,7 @@ This feature allows users to identify plants through photos. Users can upload a 
   
 3. **System Architecture and Design**
 
-   At this stage, the UI/UX was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and PlantNet.org API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
+   At this stage, the UI/UX (Wireframe) was designed from scratch using Figma, including the selection of colors, typography, and the visual hierarchy to be applied to the website. The website logo was also designed using Adobe Photoshop to establish the visual identity of the Flant platform. In addition to the interface design, the overall architecture of the Flant system was also designed, including the data retrieval flow from the Trefle.io API and PlantNet.org API, backend data processing, and the mechanism for displaying search results to users in card format. Furthermore, the technologies used for both the frontend and backend for API handling were also determined.
 
   
 3. **Implementation**
@@ -92,6 +92,8 @@ This feature allows users to identify plants through photos. Users can upload a 
   
   **PlantNet.org**
 - ### Figma
+  ![Wireframe](https://www.figma.com/design/25A2Nlm5MoPiVoktFTghRz/Flant?node-id=0-1&t=mPp3X8dekwWd7Ike-1)
+  
 - ### Adobe Photoshop
 - ### Vercel
 - ### Railway
