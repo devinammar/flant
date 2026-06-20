@@ -100,3 +100,9 @@ This feature allows users to identify plants through photos. Users can upload a 
 
 
 All stock photos used for this project are from Pexels and Unsplash
+
+<i> Copyright © 2026 devinammar. All rights reserved.
+
+This project and its source code are proprietary. No part of this repository may be copied, modified, distributed, or used in any form without explicit written permission from the author.
+
+The publicly hosted website/application built from this project may be freely accessed and used by anyone. This permission applies only to usage of the hosted service, it does not grant any rights to the underlying source code.</i>
