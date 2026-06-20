@@ -103,6 +103,6 @@ All stock photos used for this project are from Pexels and Unsplash
 
 <i> Copyright © 2026 devinammar. All rights reserved.
 
-This project and its source code are proprietary. No part of this repository may be copied, modified, distributed, or used in any form without explicit written permission from the author.
+This repository is publicly visible. You are free to view the source code and use the live website as an end user.
 
-The publicly hosted website/application built from this project may be freely accessed and used by anyone. This permission applies only to usage of the hosted service, it does not grant any rights to the underlying source code.</i>
+However, no part of this codebase may be copied, modified, distributed, sublicensed, or used to create derivative works without explicit written permission from the copyright holder.</i>
