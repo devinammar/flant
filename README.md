@@ -87,6 +87,7 @@ This feature allows users to identify plants through photos. Users can upload a 
 
 - ### HTML, CSS & ReactJS + Vite
 - ### Node.js & Express.js
+- ### Postman
 - ### API:
   **Trefle.io**
   
