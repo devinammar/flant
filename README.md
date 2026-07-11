@@ -98,7 +98,7 @@ This feature allows users to identify plants through photos. Users can upload a 
 - ### Vercel
 - ### Railway
 
-
+## 📝 Notes
 All stock photos used for this project are from Pexels and Unsplash
 
 <i> Copyright © 2026 devinammar. All rights reserved.
