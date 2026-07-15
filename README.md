@@ -85,7 +85,7 @@ This feature allows users to identify plants through photos. Users can upload a 
 
 ## 🛠️ Tech Stack
 
-- ### HTML, CSS & ReactJS + Vite
+- ### HTML, CSS, JavaScript & ReactJS + Vite
 - ### Node.js & Express.js
 - ### Postman
 - ### API:
